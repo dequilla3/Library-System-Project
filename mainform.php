@@ -30,7 +30,6 @@
 				<ul>
 					<li><span>admin</span></li>
 					<li><a href="">Dashboard</a></li>
-					<li><a href="">add Books</a></li>
 					<li><a href="">Borrow</a></li>
 					<li><a href="">Return</a></li>
 					<li><a href="">Inventory</a></li>
