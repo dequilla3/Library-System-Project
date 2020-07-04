@@ -33,6 +33,7 @@
 					<li><a href="">Borrow</a></li>
 					<li><a href="">Return</a></li>
 					<li><a href="">Inventory</a></li>
+					<li><a href="">Settings</a></li>
 					<li class="logout"><a href="includes/logout-inc.php">Logout</a></li>
 				</ul>	
 			</aside>
