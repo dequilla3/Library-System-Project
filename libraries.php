@@ -62,7 +62,7 @@
 
 						<?php
 							include 'includes/dbh-inc.php';
-							$sql = "SELECT books_tb.bookid, books_tb.title, books_tb.isbn, books_tb.author, category.category_name, publisher.publisher_name, books_tb.date_published FROM books_tb, category, publisher WHERE books_tb.bookid = category.categoryid AND books_tb.bookid = publisher.publisher_id ORDER BY books_tb.bookid;";
+							$sql = "SELECT books_tb.bookid, books_tb.title, books_tb.isbn, books_tb.author, category.category_name, publisher.publisher_name, books_tb.date_published FROM books_tb, category, publisher WHERE publisher.publisher_id = books_tb.publihser and category.categoryid = books_tb.category;";
 							$stmt = mysqli_stmt_init($conn);
 
 							if (!mysqli_stmt_prepare($stmt, $sql))
@@ -74,19 +74,20 @@
 								{
 									mysqli_stmt_execute($stmt);
 									$resultCheck = mysqli_stmt_get_result($stmt);
-									$row = mysqli_fetch_assoc($resultCheck);
-									for ($i=0; $i < mysqli_num_rows	($resultCheck) ; $i++)
-									{ 
-										echo "<tr><td>". $row['title'] ."</td><td>". $row['isbn'] ."</td><td>". $row['author']."</td><td>".$row['category_name']. "</td><td>".$row['publisher_name']."</td><td>".$row['date_published']."</td></tr>"; 
-									}
+									if (mysqli_num_rows($resultCheck) > 0)
+									 {
+										while ( $row = $resultCheck-> fetch_assoc()) 
+										{
+
+											echo "<tr><td>". $row['title'] ."</td><td>". $row['isbn'] ."</td><td>". $row['author']."</td><td>".$row['category_name']. "</td><td>".$row['publisher_name']."</td><td>".$row['date_published']."</td></tr>"; 
+										}
+									 }
+									
 								
 								}
 
 						?>
-
-					   
-
-
+		  
 					  </tbody>
 					</table>
 				</div>
