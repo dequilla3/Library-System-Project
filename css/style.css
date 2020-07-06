@@ -4,7 +4,7 @@
 	text-decoration: none;
 }
 body{
-	background: #888888;
+	background: #F8F8F8;
 }
 .login-form{
 	padding-top:50px;
@@ -240,12 +240,68 @@ body{
 .container{
 	margin-left: 230px;
 	transition: .3s ease-in-out;
-	background: white;
+	background: #D0D0D0;
 	margin-top: 100px;
 	padding: 50px 10px 60px 50px;
 	width: 67%;
 	border-top-right-radius: 50px;
 	border-bottom-left-radius: 50px;
+}
+
+.lib-container{
+	margin-left: 230px;
+	transition: .3s ease-in-out;
+	background: whitesmoke;
+	margin-top: 100px;
+	padding: 50px 10px 60px 50px;
+	width: 80%;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+
+.lib-container .top-section{
+	font-family: century gothic;
+	top: 0;
+}
+
+.lib-container .top-section label{
+	font-size: 16pt;
+}
+
+.lib-container .top-section input{
+	font-size: 13pt;
+	padding: 3px 5px;
+	outline: none;
+	border: 1px solid blue;
+}
+
+.lib-container .top-section button{
+	padding: 5px 15px;
+	font-size: 13pt;
+	margin-left: 10px;
+	border: none;
+	cursor: pointer;
+	outline: none;
+}
+
+.lib-container .top-section .search-filter{
+	margin-left: 20px;
+	color: white;
+	background: teal;
+}
+
+.lib-container .top-section .search-btn{
+	margin-left: 20px;
+	background: teal;
+	color: white;
+	padding: 5px 30px;
+}
+
+.lib-container .top-section .add-btn{
+	margin-left: 20px;
+	background: seagreen;
+	color: white;
+	padding: 5px 20px;
 }
 
 .library-main{
@@ -360,4 +416,46 @@ body{
 .updates-main:hover{
 	border-left: 10px solid crimson;
 
+}
+* {
+  font-family: sans-serif; /* Change your font family */
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
 }
