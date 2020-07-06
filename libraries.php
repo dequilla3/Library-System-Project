@@ -39,11 +39,9 @@
 			</aside>
 			<section>
 				<div class="lib-container">
+					<label class="title-library">Library</label>
 					<div class="top-section">
-						<label>Search: </label>
-						<input type="text" name="searchtxt" placeholder="Books e.g">
 						<button class="search-filter">Search Filter</button>
-						<button class="search-btn">Search</button>
 						<button class="add-btn">Add books</button>	
 					</div>
 
@@ -81,11 +79,8 @@
 
 											echo "<tr><td>". $row['title'] ."</td><td>". $row['isbn'] ."</td><td>". $row['author']."</td><td>".$row['category_name']. "</td><td>".$row['publisher_name']."</td><td>".$row['date_published']."</td></tr>"; 
 										}
-									 }
-									
-								
+									 }		
 								}
-
 						?>
 		  
 					  </tbody>
