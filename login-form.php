@@ -21,7 +21,7 @@
 			<form action="includes/login-inc.php" method="POST">
 				<div class="form-group">
 					<label>Username</label>
-					<input type="text" name="username-login" placeholder="Username" required>
+					<input autocomplete="off" type="text" name="username-login" placeholder="Username" required>
 				</div>
 				<div class="form-group">
 					<label>Password</label>

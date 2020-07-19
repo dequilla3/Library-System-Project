@@ -13,7 +13,7 @@ function toggleNav(){
 	{
 		getSidebarUl.style.visibility = "visible";
 		getSidebar.style.width = "200px";
-		getSidebar.style.borderTopRightRadius = "50px";
+		getSidebar.style.borderTopRightRadius = "20px";
 		getSidebarTitle.style.opacity = "0.5";
 		getSection.style.marginLeft = "230px";
 
@@ -26,7 +26,7 @@ function toggleNav(){
 	else if (toggleNavStatus === true)
 	{
 		getSidebarUl.style.visibility = "hidden";
-		getSidebar.style.width = "40px";
+		getSidebar.style.width = "50px";
 		getSidebar.style.borderTopRightRadius = "0";
 		getSidebarTitle.style.opacity = "0.5";
 		getSection.style.marginLeft = "100px";
