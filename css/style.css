@@ -270,26 +270,29 @@ body{
 
 .lib-container .top-section input{
 	font-size: 13pt;
-	padding: 5px 5px;
+	padding: 8px 8px;
 	outline: none;
 	margin: 0;
 	width: 50px;
 }
 
 .lib-container .top-section button{
-	padding: 10px 15px;
 	font-size: 13pt;
 	border: none;
 	cursor: pointer;
 	outline: none;
 
 }
+.lib-container .top-section .search-text{
+	outline: none;
+	width: 300px;
+}
 
 .lib-container .top-section .search-filter{
-	margin-left: 20px;
 	color: white;
 	padding: 10px 15px;
 	background: teal;
+	margin-left: 20px;
 }
 
 .lib-container .top-section .search-btn{
@@ -428,6 +431,7 @@ body{
   border-radius: 5px 5px 0 0;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  width: 100%;
 }
 
 .content-table thead tr {
@@ -466,17 +470,15 @@ body{
 }
 
 .title-library{
-	padding: 5px 20px;
 	top: 0;
-	background: darkslategray;
-	color: white;
+	color: black;
 	display: block;
 	font-family: century gothic;
-	font-size: 20pt;
+	font-size: 30pt;
 	font-weight: bold;
 	margin-bottom: 50px;
 	width: 120px;
-	border-top-right-radius: 50%;
-	border-bottom-right-radius: 50%;
+	border-bottom: 1px solid black;
+	padding-right: 90%;
 }
 
