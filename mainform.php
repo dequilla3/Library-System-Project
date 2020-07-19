@@ -29,7 +29,7 @@
 			<aside class="nav-sidebar" id="sidebar">
 				<ul>
 					<li><span>admin</span></li>
-					<li><a href="">Dashboard</a></li>
+					<li><a href="mainform.php">Dashboard</a></li>
 					<li><a href="">Borrow</a></li>
 					<li><a href="">Return</a></li>
 					<li><a href="">Inventory</a></li>

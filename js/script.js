@@ -1,3 +1,4 @@
+
 let toggleNavStatus = true;
 
 function toggleNav(){
@@ -38,5 +39,4 @@ function toggleNav(){
 	}
 
 }
-
 

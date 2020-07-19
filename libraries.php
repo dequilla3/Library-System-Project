@@ -29,7 +29,7 @@
 			<aside class="nav-sidebar" id="sidebar">
 				<ul>
 					<li><span>admin</span></li>
-					<li><a href="">Dashboard</a></li>
+					<li><a href="mainform.php">Dashboard</a></li>
 					<li><a href="">Borrow</a></li>
 					<li><a href="">Return</a></li>
 					<li><a href="">Inventory</a></li>
@@ -38,12 +38,12 @@
 				</ul>	
 			</aside>
 			<section>
-				<form action="includes/Control/control.libraries.php" method="POST">
 					<div class="lib-container">
 						<label class="title-library">Library</label>
 						<div class="top-section">
-							<input type="text" name="search-input" class="search-text" placeholder="Search...">
-							<button class="search-filter">Search Filter</button>
+							<form action="includes/Control/SearchControl.php" method="POST">
+								<input autocomplete="off" type="search" name="search-input" class="search-text" placeholder="Search...">	<button type="button" name="search-filter" class="search-filter" value="Search">Search Filter</button>
+							</form>	
 							<button class="add-btn">Add books</button>	
 						</div>
 
@@ -88,7 +88,6 @@
 						  </tbody>
 						</table>
 					</div>
-				</form>
 			</section>
 		</body>
 		<script src="js/script.js"></script>
