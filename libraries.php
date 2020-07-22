@@ -4,27 +4,6 @@
 
 	<main>
 
-		<header>
-			<?php
-				session_start();
-
-				if (!isset($_SESSION['uid'])) {
-					header("Location: ../Library%20System%20Project/");
-				}
-			?>
-
-			<nav class="nav-main">
-				<div class="btn-toggle-nav" onclick="toggleNav()"></div>
-				<div class="notification"></div>
-
-					<div class="title-main">
-						<a href="#">
-							<label>Library<label class="label-design">System</label></label>
-						</a>
-					</div>
-			</nav>
-		</header>
-
 		<body>
 			<aside class="nav-sidebar" id="sidebar">
 				<ul>
@@ -38,7 +17,7 @@
 				</ul>	
 			</aside>
 			<section>
-					<div class="lib-container">
+					<div class="container">
 						<label class="title-library">Library</label>
 						<div class="top-section">
 							<form action="includes/Control/SearchControl.php" method="POST">

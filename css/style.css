@@ -244,12 +244,10 @@ body{
 .container{
 	margin-left: 230px;
 	transition: .3s ease-in-out;
-	background: #D0D0D0;
+	background: #F8F8F8;
 	margin-top: 100px;
-	padding: 50px 10px 60px 50px;
-	width: 67%;
-	border-top-right-radius: 50px;
-	border-bottom-left-radius: 50px;
+	padding: 30px 0 500px 50px;
+	width: 80%;
 }
 
 .lib-container{
@@ -261,40 +259,44 @@ body{
 	width: 80%;
 	border-top-right-radius: 50px;
 	border-bottom-left-radius: 50px;
+.main-section{
+	display: block;
 }
 
-.lib-container .top-section{
+
+
+.container .top-section{
 	font-family: century gothic;
 }
 
-.lib-container .top-section label{
+.container .top-section label{
 	font-size: 16pt;
 }
 
-.lib-container .top-section input{
+.container .top-section input{
 	font-size: 13pt;
-	padding: 8px 8px;
+	padding: 5px 8px;
 	outline: none;
 	margin: 0;
 	width: 50px;
 }
 
-.lib-container .top-section button{
+.container .top-section button{
 	font-size: 13pt;
 	border: none;
 	cursor: pointer;
 	outline: none;
 }
 
-.lib-container .top-section form{
+.container .top-section form{
 	display: inline-block;
 }
 
-.lib-container .top-section .search-text{
+.container .top-section .search-text{
 	outline: none;
-	border: 0.5px solid gray;
+	border: 0.6px solid gray;
 	width: 300px;
-	font-size: 16pt;
+	font-size: 14pt;
 	background-image: url(../img/searchicon.png);
 	background-repeat: no-repeat;
 	background-size: 25px;
@@ -303,11 +305,11 @@ body{
 	transition: .2s;
 }
 
-.lib-container .top-section .search-text:focus{
+.container .top-section .search-text:focus{
 	width: 500px;
 }
 
-.lib-container .top-section .search-filter{
+.container .top-section .search-filter{
 	color: white;
 	padding: 10px 15px;
 	background: teal;
@@ -315,7 +317,7 @@ body{
 }
 
 
-.lib-container .top-section .add-btn{
+.container .top-section .add-btn{
 	margin-left: 20px;
 	background: seagreen;
 	color: white;
@@ -457,11 +459,11 @@ body{
 
 
 .content-table td {
-  font-size: 13pt;
+  font-size: 12pt;
   padding: 12px 30px;
 }
 .content-table th {
-  font-size: 15pt;
+  font-size: 13pt;
   padding: 12px 30px;
 }
 
@@ -496,3 +498,14 @@ body{
 	padding-right: 100%;
 }
 
+.footer{
+	bottom: 0;
+	width: 100%;
+	padding: 20px;
+	background: #181818;
+}
+.footer label{
+	font-size: 13pt;
+	font-family: century gothic;
+	color: white;
+}

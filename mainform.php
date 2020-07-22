@@ -37,7 +37,8 @@
 					<li class="logout"><a href="includes/logout-inc.php">Logout</a></li>
 				</ul>	
 			</aside>
-			<section>
+			<section class="main-section">
+
 				<div class="container">
 					<a href="libraries.php">
 						<div class="library-main">
@@ -60,6 +61,7 @@
 						</div>
 					</a>
 				</div>
+					
 			</section>
 		</body>
 		<script src="js/script.js"></script>

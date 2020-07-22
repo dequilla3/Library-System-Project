@@ -1,9 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>CRUD</title>
-</head>
-<body>
-	<div style="margin-top: 0;"></div>
-</body>
-</html>
+<footer>
+	
+	<div class="footer">
+		<center>
+			<label>
+				Copyright 2020, Information Library System, Kim Devs
+			</label>
+		</center>
+	</div>
+
+</footer>
