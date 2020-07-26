@@ -13,7 +13,7 @@ body{
 	padding-left: 50px;
 	padding-bottom: 200px;
 	background: darkslategray;
-	width: 500px;
+	width: 400px;
 	font-family: arial;
 	margin-left: 35%;
 	margin-right: 50%;
@@ -250,15 +250,6 @@ body{
 	width: 80%;
 }
 
-.lib-container{
-	margin-left: 230px;
-	transition: .3s ease-in-out;
-	background: whitesmoke;
-	margin-top: 100px;
-	padding: 20px 10px 60px 50px;
-	width: 80%;
-	border-top-right-radius: 50px;
-	border-bottom-left-radius: 50px;
 .main-section{
 	display: block;
 }

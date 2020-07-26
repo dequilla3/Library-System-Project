@@ -2,16 +2,8 @@
 	require 'header.php';
 ?>
 
+
 	<main>
-
-		<header>
-			<?php
-				session_start();
-
-				if (!isset($_SESSION['uid'])) {
-					header("Location: ../Library%20System%20Project/");
-				}
-			?>
 
 			<nav class="nav-main">
 				<div class="btn-toggle-nav" onclick="toggleNav()"></div>
@@ -23,7 +15,7 @@
 						</a>
 					</div>
 			</nav>
-		</header>
+
 
 		<body>
 			<aside class="nav-sidebar" id="sidebar">

@@ -1,11 +1,8 @@
-<?php
-	require 'header.php';
-?>
 
-	<main>
+
 
 		<?php
-			session_start();
+			
 			if (isset($_GET['error']) == 'nouser') {
 				echo  	'<div class="error-messg">
 							<label> No user!</label>
@@ -34,9 +31,4 @@
 			</form>
 
 		</div>
-	</main>
-
-
-<?php
-	require 'footer.php';
-?>
+	
