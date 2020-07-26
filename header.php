@@ -12,7 +12,7 @@
 			session_start();
 				if (!isset($_SESSION['uid'])) 
 				{
-					header("Location: ../Library%20System%20Project/");
+					header("Location: ../Library%20System%20Project/index.php");
 				}else{
 				}
 			?>

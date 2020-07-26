@@ -54,12 +54,12 @@ body{
 }
 
 .login-form .form-group input{
-	width: 85%;
-	height: 35px;
+	width: 80%;
+	height: 30px;
 	padding-left: 18px;
-	font-size: 15pt;
+	font-size: 13pt;
 	font-family: arial;
-	border-radius: 5px;
+	border-radius: 10px;
 	border-style: none;
 }
 .login-form .form-group input:focus{
@@ -67,8 +67,8 @@ body{
 }
 
 .login-form .form-group button{
-	height: 33px;
-	width: 30%;
+	height: 30px;
+	width: 40%;
 	background: fuchsia;
 	font-family: century gothic;
 	color: white;
@@ -77,15 +77,16 @@ body{
 	margin-top: 10px;
 	transition: .5s;
 	font-size: 12pt;
-	text-transform: uppercase;
+	border-radius: 10px;
 }
 .login-form .form-group button:focus{
 	outline: none;
-	background: blue;
+
 }
 
 .login-form .form-group button:hover{
-	width: 33%;
+	width: 50%;
+	background: blue;
 }
 
 .error-messg{
@@ -224,14 +225,14 @@ body{
 	font-size: 12pt;
 	padding: 3px 5px;
 	white-space: nowrap;
-	transition: all .102s ease-in-out;
+	transition: 0.5s;
 	text-transform: uppercase;
 	margin-left: 10px;
 
 }
 
 .nav-sidebar ul li a:hover{
-	border-left: 7px solid crimson;
+	border-left: 10px solid maroon;
 }
 
 .nav-sidebar ul .logout a{
@@ -239,6 +240,12 @@ body{
 	padding-right: 100px;
 	border-left: 7px solid crimson;
 	border-radius: 20px;
+	transition: 0.5s;
+}
+.nav-sidebar ul .logout a:hover{
+
+	border-left: 10px solid maroon;
+	font-weight: bold;
 }
 
 .container{
