@@ -21,7 +21,13 @@
 						<label class="title-library">Library</label>
 						<div class="top-section">
 							<form action="includes/Control/SearchControl.php" method="POST">
-								<input autocomplete="off" type="search" name="search-input" class="search-text" placeholder="Search...">	<button type="button" name="search-filter" class="search-filter" value="Search">Search Filter</button>
+
+								<div class="autocomplete">
+									<input autocomplete="off" type="search" name="search-input" class="search-text" placeholder="Search..." id="myInput">
+								</div>
+								<input type="submit" class="search-submit" value="Submit">
+								
+								
 							</form>	
 							<button class="add-btn">Add books</button>	
 						</div>
