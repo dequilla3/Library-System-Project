@@ -1,7 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Library System</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="shortcut icon" type="image/png" href="img/blogger.png">
+</head>
+<body>
 
-
-
-		<?php
+		<div class="login-form">
+			<?php
 			
 			if (isset($_GET['error']) == 'nouser') {
 				echo  	'<div class="error-messg">
@@ -9,8 +16,6 @@
 					 	 </div>';
 			}
 		?>
-
-		<div class="login-form">
 			<div class="title-line">
 				<label>Library<label class="label-design">System</label></label>
 			</div>
@@ -31,4 +36,6 @@
 			</form>
 
 		</div>
-	
+
+</body>
+</html>

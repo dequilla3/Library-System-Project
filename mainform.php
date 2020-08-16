@@ -4,19 +4,7 @@
 
 
 	<main>
-
-			<nav class="nav-main">
-				<div class="btn-toggle-nav" onclick="toggleNav()"></div>
-				<div class="notification"></div>
-
-					<div class="title-main">
-						<a href="#">
-							<label>Library<label class="label-design">System</label></label>
-						</a>
-					</div>
-			</nav>
-
-
+		
 		<body>
 			<aside class="nav-sidebar" id="sidebar">
 				<ul>
@@ -56,7 +44,7 @@
 					
 			</section>
 		</body>
-		<script src="js/script.js"></script>
+		
 	</main>
 
 

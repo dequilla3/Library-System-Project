@@ -1,5 +1,4 @@
 <footer>
-	
 	<div class="footer">
 		<center>
 			<label>
@@ -7,5 +6,6 @@
 			</label>
 		</center>
 	</div>
+	<script src="js/script.js"></script>
 
 </footer>

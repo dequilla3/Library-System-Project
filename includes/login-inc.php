@@ -1,7 +1,7 @@
 <?php
-
+include 'dbh-inc.php';
 if (isset($_POST['login-submit'])) {
-	include 'Model/dbh-inc.php';
+	
 
 	$username = $_POST['username-login'];
 	$password = $_POST['password-login'];

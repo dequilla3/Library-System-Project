@@ -11,13 +11,13 @@ body{
 .login-form{
 	padding-top:50px;
 	padding-left: 50px;
-	padding-bottom: 200px;
+	padding-bottom: 150px;
 	background: darkslategray;
 	width: 400px;
 	font-family: arial;
 	margin-left: 35%;
 	margin-right: 50%;
-	margin-top: 100px;
+	margin-top: 50px;
 	border-bottom-right-radius: 50px;
 	border-top-left-radius: 50px;
 }
@@ -90,18 +90,20 @@ body{
 }
 
 .error-messg{
-	width: 100%;
-	background: salmon;
+	width: 100px;
+	background: maroon;
 	text-align: center;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
 }
 
 .error-messg label{
 	color: white;
 	font-family: Century Gothic;
-	font-weight: bold;
-	font-size: 15pt;
+	font-size: 13pt;
 	
 }
 
@@ -225,7 +227,7 @@ body{
 	font-size: 12pt;
 	padding: 3px 5px;
 	white-space: nowrap;
-	transition: 0.5s;
+	transition: all .1s ease-in-out;
 	text-transform: uppercase;
 	margin-left: 10px;
 
@@ -240,7 +242,7 @@ body{
 	padding-right: 100px;
 	border-left: 7px solid crimson;
 	border-radius: 20px;
-	transition: 0.5s;
+	transition: all .1s ease-in-out;
 }
 .nav-sidebar ul .logout a:hover{
 
@@ -252,7 +254,7 @@ body{
 	margin-left: 230px;
 	transition: .3s ease-in-out;
 	background: #F8F8F8;
-	margin-top: 100px;
+	margin-top: 60px;
 	padding: 20px 0 500px 50px;
 	width: 80%;
 }
@@ -388,6 +390,11 @@ body{
 	width: 100px;
     padding: 8px;
 }
+
+.container .top-section .add-btn:hover{
+	background: green;
+}
+
 
 .library-main{
 	width: 250px;
@@ -529,7 +536,7 @@ body{
 }
 .content-table th {
   font-size: 13pt;
-  padding: 12px 30px;
+  padding: 10px 20px;
 }
 
 
